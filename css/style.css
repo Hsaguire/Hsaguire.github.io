@@ -95,16 +95,3 @@ body {
 /*
 *THIS CODE IS FOR MEDIA QUERIES
 */
-
-@media screen and (max-width: 481px; ) {
-    .container {
-        display: flex;
-        width: 100%;
-    }
-
-    .myname {
-        font-size: 50px;
-
-
-    }
-}
