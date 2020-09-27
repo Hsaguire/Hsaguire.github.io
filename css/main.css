@@ -81,6 +81,11 @@ img {
     height: 400px;
 }
 
+.banner-image {
+    width: 350px;
+    height: 400px;
+}
+
 .link {
     text-decoration: none;
     color: black;
@@ -91,18 +96,21 @@ img {
 }
 
 .about-container {
-    display: grid;
-    grid-gap: 15px;
-    grid-template-columns: 350px 350px 350px;
+    display: flex;
     justify-content: center;
-
+    max-width: 70%;
+    margin: auto;
 }
 
 .about-banner {
     border: 1px solid white;
     border-radius: 10px;
-    box-shadow: 5px 10px 5px 5px gray;
+    box-shadow: 5px 10px 15px 5px gray;
     text-align: center;
+}
+
+.about-banner:not(:last-of-type) {
+    margin-right: 50px;
 }
 
 /*
@@ -121,8 +129,26 @@ img {
 * THIS CODE IS FOR MEDIA QUARIES 
 */
 
-@media (max-width: 400px) {
+@media screen and (max-width: 768px) {
     .about-container {
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+        max-width: 180%;
     }
+
+    .img {
+        width: 150px;
+        height: 200px;
+    }
+
+    .banner-image {
+        width: 175px;
+        height: 200px;
+    }
+
+    p {
+        padding-top: 60%;
+    }
+
+
 }
