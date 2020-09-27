@@ -129,26 +129,23 @@ img {
 * THIS CODE IS FOR MEDIA QUARIES 
 */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 678px) {
     .about-container {
-        display: flex;
         flex-direction: column;
-        max-width: 180%;
+        max-width: 100%;
+        margin-left: 50px;
     }
 
-    .img {
-        width: 250px;
-        height: 200px;
+    .main-container {
+        margin-top: 50px;
     }
 
     .banner-image {
-        width: 200px;
+        width: 325px;
         height: 200px;
     }
 
     p {
         padding-top: 60%;
     }
-
-
 }

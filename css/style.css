@@ -1,17 +1,20 @@
+body {
+    background-color: #E4E6E9;
+}
+
 .container {
+    display: flex;
     position: relative;
-    width: 70%;
-    height: 150px;
-    border-radius: 25px;
-    background-color: #8BB4C7;
+    width: 90%;
+    height: 100px;
+    background-color: #A2B8C8;
     margin: auto;
 }
 
 .myname {
-    position: absolute;
-    font-family: 'Roboto', serif;
-    font-size: 80px;
-    margin-top: 40px;
+    font-family: 'Secular One',
+        sans-serif;
+    font-size: 50px;
     margin-left: 120px;
 }
 
@@ -27,6 +30,7 @@
 */
 
 .about {
+    max-width: 100%;
     margin-top: 60px;
 }
 
@@ -48,7 +52,7 @@
 }
 
 .link:hover {
-    color: blue;
+    color: red;
 }
 
 .resources {
@@ -63,10 +67,9 @@
 
 .footer-container {
     margin: auto;
-    width: 70%;
+    width: 90%;
     height: 100px;
-    border-radius: 25px;
-    background-color: #8BB4C7;
+    background-color: #A2B8C8;
 }
 
 .student {
@@ -92,3 +95,16 @@
 /*
 *THIS CODE IS FOR MEDIA QUERIES
 */
+
+@media screen and (max-width: 481px; ) {
+    .container {
+        display: flex;
+        width: 100%;
+    }
+
+    .myname {
+        font-size: 50px;
+
+
+    }
+}
