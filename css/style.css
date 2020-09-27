@@ -42,6 +42,15 @@
 * THIS IS CODE IS FOR LINKS
 */
 
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    color: blue;
+}
+
 .resources {
     margin-bottom: 100px;
     margin-left: 270px;
