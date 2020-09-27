@@ -1,0 +1,81 @@
+.container {
+    position: relative;
+    width: 70%;
+    height: 150px;
+    border-radius: 25px;
+    background-color: #8BB4C7;
+    margin: auto;
+}
+
+.myname {
+    position: absolute;
+    font-family: 'Roboto', serif;
+    font-size: 80px;
+    margin-top: 40px;
+    margin-left: 120px;
+}
+
+.myself {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 75%;
+    box-shadow: 0 5px 20px;
+}
+
+/*
+* THIS IS FOR SECTION About
+*/
+
+.about {
+    margin-top: 60px;
+}
+
+.course {
+    font-family: 'Roboto', sans-serif;
+    font-size: 250%;
+    margin-left: 270px;
+    margin-bottom: 0;
+}
+
+
+/*
+* THIS IS CODE IS FOR LINKS
+*/
+
+.resources {
+    margin-bottom: 100px;
+    margin-left: 270px;
+    font-size: 25px;
+}
+
+/*
+* THIS IS CODE IS FOR THE FOOTER
+*/
+
+.footer-container {
+    margin: auto;
+    width: 70%;
+    height: 100px;
+    border-radius: 25px;
+    background-color: #8BB4C7;
+}
+
+.student {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.information {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 20px;
+}
