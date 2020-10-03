@@ -12,9 +12,7 @@ body {
 
 .image {
 	position: absolute;
-	display: flex;
-	justify-content: flex-end;
-	margin-left: 7%;
+	margin-left: 60%;
 	margin-top: 1%;
 }
 
