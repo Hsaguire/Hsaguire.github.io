@@ -65,6 +65,10 @@ hr {
 	color: red;
 }
 
+.resource-link {
+	list-style: none;
+}
+
 .resources {
 	margin-bottom: 100px;
 	margin-left: 4%;
