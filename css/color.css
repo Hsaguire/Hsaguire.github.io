@@ -79,11 +79,6 @@ h1 {
     text-transform: uppercase;
 }
 
-header {
-    display: grid;
-    grid-template-columns:
-}
-
 table,
 th,
 td {
