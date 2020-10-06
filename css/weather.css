@@ -1,7 +1,11 @@
 /*This code is for the header*/
+body {
+	background-color: #e4e6e9;
+}
+
 .menu {
 	width: 100%;
-	background-color: black;
+	background-color: #000000;
 	overflow: auto;
 }
 
@@ -58,12 +62,62 @@ button {
 }
 
 img {
-	width: 500px;
-	height: 400px;
+	width: 200px;
+	height: 200px;
+	border-radius: 20%;
 }
-/*******/
 
-.container {
+h1,
+h2 {
+	font-family: 'Secular One',
+		sans-serif;
+	font-size: 2.5rem;
+	text-transform: uppercase;
+}
+
+p {
+	font-family: 'Secular One',
+		serif;
+	font-size: 1.5rem;
+}
+
+.image-banner {
 	display: flex;
 	justify-content: center;
+}
+
+.container {
+	width: 50%;
+	margin: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/*
+* THIS CODE IS FOR THE FOOTER
+*/
+
+.footer-container {
+	width: 100%;
+	background-color: #000000;
+	text-align: center;
+}
+
+.information {
+	color: #fff;
+	margin-bottom: 0;
+}
+
+.date {
+	margin-top: 0;
+	color: #fff;
+}
+
+.link {
+	text-decoration: none;
+	color: #fff;
+}
+
+.link:hover {
+	color: #fbfd00;
 }
