@@ -1,1 +1,7 @@
-@media all screen and ()
+@media only screen and (min-width: 32.53em) {
+    .about-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 50px;
+    }
+}

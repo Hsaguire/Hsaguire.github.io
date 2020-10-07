@@ -38,7 +38,6 @@ body {
 */
 
 .main-container {
-    justify-content: center;
     margin-top: 20px;
 }
 
@@ -95,11 +94,14 @@ img {
     color: red;
 }
 
+.main-container {
+    margin: 50px 180px 70px;
+}
+
 .about-container {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     max-width: 70%;
-    margin: auto;
 }
 
 .about-banner {
@@ -127,13 +129,9 @@ img {
 
 /*
 * THIS CODE IS FOR MEDIA QUARIES 
-*/
-
 @media screen and (max-width: 678px) {
     .about-container {
-        flex-direction: column;
-        max-width: 100%;
-        margin-left: 50px;
+        display: grid;
     }
 
     .main-container {
@@ -149,3 +147,4 @@ img {
         padding-top: 60%;
     }
 }
+*/
