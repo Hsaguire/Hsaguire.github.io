@@ -57,11 +57,17 @@
     <footer class="footer-container">
         <div class="student">
             <p class="information">&copy; 2020 | HJ G. Saguire | BACOLOD CIY - PHILIPPINES |
-                <a class="link" href="https://www.byui.edu/online">BYU Online Learning</a>
+                <a class="link" href="https://www.byui.edu/online"
+                        target="_blank">BYUI Online Learning</a> |<br> Last
+                    Update: <span id="currentdate"></span>
             </p>
-            <p class="date">Last Updated 10/06/2020 7:430pm</p>
         </div>
     </footer>
+    <script>
+        //tolocalDateString
+        const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numberic'};
+        document.getElementById('currentdate').textContent = new Date().toLocaleDateString('options');
+    </script>
 
 </body>
 

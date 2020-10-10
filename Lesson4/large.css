@@ -1,0 +1,19 @@
+@media only screen and (min-width: 60em) {
+
+    .contentbox,
+    h2 {
+        align-items: left;
+        text-align: left;
+    }
+
+    main,
+    footer {
+        max-width: 100%;
+    }
+
+    .siteheading {
+        margin: 0;
+        font-size: 40px;
+    }
+
+}

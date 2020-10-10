@@ -81,6 +81,17 @@ p {
 	font-size: 1.5rem;
 }
 
+.qoutes {
+	width: 500px;
+}
+
+.weatherqoutes {
+	text-align: center;
+	font-family: 'Sansita Swashed',
+		cursive;
+	;
+}
+
 .image-banner {
 	display: flex;
 	justify-content: center;

@@ -68,12 +68,16 @@
             <div class="footer-banner">
                 <p>© 2020 | HJ SAGUIRE | BACOLOD CITY - PHILIPPINES | <a class="link" href="https://www.byui.edu/online"
                         target="_blank">BYUI Online Learning</a> |<br> Last
-                    Update:<span id="currentdate">Saturday,
-                        September 26, 2020, 9:30 PM</span>
+                    Update: <span id="currentdate"></span>
                 </p>
             </div>
         </div>
     </footer>
+    <script>
+        //tolocalDateString
+        const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numberic'};
+        document.getElementById('currentdate').textContent = new Date().toLocaleDateString('options');
+    </script>
 </body>
 
 </html>
