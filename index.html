@@ -9,21 +9,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Sansita+Swashed:wght@500&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/large.css">
     <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/small.css">
     <title>Assignments Portal</title>
 </head>
 
 <body>
     <header>
-        <div class="image">
-            <img src="/Image/myself-min.jpg" alt="pictureofme">
-        </div>
-        <div class="container">
-            <div class="banner">
-                <h1>HJ G. SAGUIRE</h1>
-            </div>
-        </div>
+        <img src="/Image/myself-min.jpg" alt="pictureofme">
+        <h1>HJ G. SAGUIRE</h1>
     </header>
     <section class="about">
         <h2 class="course">WDD 230: Assignment Portal 2020 </h2>
@@ -46,7 +41,6 @@
         </div>
     </footer>
     <script>
-        //tolocalDateString
         const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numberic'};
         document.getElementById('currentdate').textContent = new Date().toLocaleDateString('options');
     </script>
