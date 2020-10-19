@@ -5,30 +5,22 @@ body {
 header {
 	position: relative;
 	max-width: 60%;
-	background-color: gray;
+	background-color: #000000;
 	margin: 5% auto;
 
 }
-/*
-.container {
-	width: 60%;
-	background-color: #3B60E9;
-	border-radius: 10px;
-	margin: 2% auto;
-}
-*/
 
 img {
 	width: 60%;
 	height: 290%;
-	margin: 5% 0 0 20%;
-	box-shadow: 1px 1px 1px 1px gray;
+	margin: 10% 0 0 20%;
+	box-shadow: 0 0 0 10px #fff;
 }
 
 h1 {
 	font-family: 'Roboto',
 		sans-serif;
-	color: #000000;
+	color: #fff;
 	font-size: 1.5rem;
 	margin-left: 7%;
 }
@@ -41,8 +33,10 @@ hr {
 /*
 * THIS IS FOR SECTION About
 */
+
 .about {
-	width: 50%;
+	max-width: 100%;
+
 }
 
 .course {
@@ -55,24 +49,32 @@ hr {
 * THIS IS CODE IS FOR LINKS
 */
 
-.link {
+.navlink {
 	text-decoration: none;
 	color: #000000;
 }
 
-.link:hover {
-	color: red;
+.navlink:hover {
+	color: tomato;
+}
+
+.link {
+	text-decoration: none;
+	color: #fff;
+}
+
+.link:hover{
+	color: tomato;
 }
 
 .resource-link {
 	list-style: none;
-	margin-left: 5%;
+	padding: 0;
 }
 
 .resources {
-	margin-bottom: 100px;
-	margin-left: 4%;
-	font-size: 1.5rem;
+	margin-bottom: 20%;
+	font-size: 1.1rem;
 }
 
 /*
@@ -80,11 +82,9 @@ hr {
 */
 
 .footer-container {
-	width: 50%;
-	height: 100px;
-	background-color: #3B60E9;
+	max-width: 60%;
+	background-color: #000000;
 	border-radius: 10px;
-	margin: auto;
 }
 
 .student {
@@ -94,20 +94,18 @@ hr {
 	text-align: center;
 }
 
-.information {
+p {
+	color: #fff;
+	text-align: center;
 	margin-top: 20px;
 	margin-bottom: 5px;
-	font-size: 20px;
+	font-size: 1rem;
 }
 
 .date {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	color: #000000;
+	color:#fff;
 	font-size: 20px;
 }
-
-/*
-*THIS CODE IS FOR MEDIA QUERIES
-*/

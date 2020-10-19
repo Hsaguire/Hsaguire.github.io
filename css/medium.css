@@ -1,118 +1,116 @@
 @media only screen and (max-width: 32.53em) {
-    .about-container {
-        display: grid;
-        grid-template-columns: 1fr;
-        max-width: 50px;
+    
+    body {
+        background-color: #e4e6e9;
     }
-}
 
-body {
-    background-color: #e4e6e9;
-}
+    header {
+    position: relative;
+    max-width: 60%;
+    background-color: #000000;
+    margin: 5% auto;
 
-.container {
-    width: 60%;
-    background-color: #3B60E9;
-    border-radius: 10px;
-    margin: 2% auto;
-}
+    }
 
-.image {
-    position: absolute;
-    margin-left: 60%;
-    margin-top: 1%;
-}
+    .container {
+        width: 20%;
+        background-color: #3B60E9;
+        border-radius: 10px;
+        margin: 2% auto;
+    }
 
-img {
-    width: 30%;
-    height: 40%;
-    box-shadow: 5px 10px 15px 5px gray;
-}
+    img {
+        width: 60%;
+        height: 290%;
+        box-shadow: 5px 10px 15px 5px gray;
+    }
 
-h1 {
-    font-family: 'Roboto',
-        sans-serif;
-    color: #000000;
-    font-size: 3.0rem;
-    padding-top: 5%;
-    padding-left: 15%;
-}
+    h1 {
+        font-family: 'Roboto',
+            sans-serif;
+        color: #000000;
+        font-size: 3.0rem;
+        padding-top: 5%;
+        padding-left: 15%;
+    }
 
-hr {
-    margin-left: 4%;
-}
+    hr {
+        margin-left: 4%;
+    }
 
 
-/*
+    /*
 * THIS IS FOR SECTION About
 */
-.about {
-    width: 50%;
-    margin: 2% auto;
-}
+    .about {
+        width: 50%;
+        margin: 2% auto;
+    }
 
-.course {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.5rem;
-    margin-left: 4%;
-}
+    .course {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5rem;
+        margin-left: 4%;
+    }
 
-/*
+    /*
 * THIS IS CODE IS FOR LINKS
 */
 
-.link {
-    text-decoration: none;
-    color: #000000;
-}
+    .link {
+        text-decoration: none;
+        color: #000000;
+    }
 
-.link:hover {
-    color: red;
-}
+    .link:hover {
+        color: red;
+    }
 
-.resource-link {
-    list-style: none;
-}
+    .resource-link {
+        list-style: none;
+    }
 
-.resources {
-    margin-bottom: 100px;
-    margin-left: 4%;
-    font-size: 1.5rem;
-}
+    .resources {
+        margin-bottom: 100px;
+        margin-left: 4%;
+        font-size: 1.5rem;
+    }
 
-/*
+    /*
 * THIS IS CODE IS FOR THE FOOTER
 */
 
-.footer-container {
-    width: 50%;
-    height: 100px;
-    background-color: #3B60E9;
-    border-radius: 10px;
-    margin: auto;
-}
+    .footer-container {
+        width: 50%;
+        height: 100px;
+        background-color: #3B60E9;
+        border-radius: 10px;
+        margin: auto;
+    }
 
-.student {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
+    .student {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
 
-.information {
-    margin-top: 20px;
-    margin-bottom: 5px;
-    font-size: 20px;
-}
+    .information {
+        margin-top: 20px;
+        margin-bottom: 5px;
+        font-size: 20px;
+    }
 
-.date {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #000000;
-    font-size: 20px;
-}
+    .date {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #000000;
+        font-size: 20px;
+    }
 
-/*
+    /*
 *THIS CODE IS FOR MEDIA QUERIES
 */
+}
+
