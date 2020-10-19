@@ -1,3 +1,4 @@
+/*
 @media only screen and (max-width: 32.53em) {
     
     body {
@@ -5,24 +6,15 @@
     }
 
     header {
-    position: relative;
-    max-width: 60%;
+    max-width: 100px;
     background-color: #000000;
-    margin: 5% auto;
-
-    }
-
-    .container {
-        width: 20%;
-        background-color: #3B60E9;
-        border-radius: 10px;
-        margin: 2% auto;
+    margin: auto;
     }
 
     img {
-        width: 60%;
-        height: 290%;
-        box-shadow: 5px 10px 15px 5px gray;
+        width: 50px;
+        height: 50px;
+        box-shadow:  0 0 5% #fff;
     }
 
     h1 {
@@ -109,8 +101,6 @@
         font-size: 20px;
     }
 
-    /*
-*THIS CODE IS FOR MEDIA QUERIES
-*/
+
 }
 
