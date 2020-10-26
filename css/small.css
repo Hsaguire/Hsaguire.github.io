@@ -81,13 +81,12 @@ h1 {
 * THIS IS CODE IS FOR THE FOOTER
 */
 .about {
-	max-width: 50%;
+	max-width: 75%;
 }
 
 .footer-container {
 	max-width: 100%;
 	background-color: #000000;
-	border-radius: 10px;
 	margin: auto;
 }
 
